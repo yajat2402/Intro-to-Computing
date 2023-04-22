@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Home</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/home.css">
+    <style>
+button{
+    height:50px;
+    width: 130px;
+    background-color: tomato;
+}
+form button{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+section{
+    margin-top: 20px;
+}
+ </style>
+
+</head>
+<body>
+
+
+<header class="header">
+
+    <a href="#" class="logo"><span>P</span>lacement port</a>
+    <nav>
+                <ul id='MenuItems'>
+
+                    <button><a href="http://localhost/Placement%20Port/Placement%20Port/admin.php">Add Placement</a></button>
+
+                    <button><a href="http://localhost/Placement%20Port/Placement%20Port/view%20apply%20stud.php">Student Application</a></button>
+
+                    <button><a href='logout.php'>Logout</a></button>
+                </ul>
+    </nav>
+</header>
+
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>its time to celebrate! the best placement organizers</h3>
+    </div>
+
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/campus place.png" alt="" height="640" width="427"></div>
+
+            <div class="swiper-slide"><img src="images/place1.jpeg" alt="" height="640" width="427"></div>
+            <div class="swiper-slide"><img src="images/place3.jpeg" alt="" height="640" width="427"></div>
+            <div class="swiper-slide"><img src="images/place4.jpg" alt="" height="640" width="427"></div>
+            <div class="swiper-slide"><img src="images/place5.jpeg" alt="" height="640" width="427"></div>
+            <div class="swiper-slide"><img src="images/place6.jpg" alt="" height="640" width="427"></div>
+            <!-- <div class="swiper-slide"><img src="images/place7.jfif" alt="" height="640" width="427"></div> -->
+            <div class="swiper-slide"><img src="images/place8.jpg" alt="" height="640" width="427"></div>
+            <div class="swiper-slide"><img src="images/place9.jpg" alt="" height="640" width="427"></div>
+
+        
+        
+        </div>
+    </div>
+<footer>
+    <form>
+    <div>
+        <p><button class="button"><a href="products.php">View Placement</a></button></p>
+    </div>
+    </form>
+</footer>
+
+
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/home.js"></script>
+
+</body>
+</html>

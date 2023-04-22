@@ -1,0 +1,53 @@
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: whitesmoke;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+  }
+ section{
+    padding: 2rem;
+    
+}
+.container{
+    max-width: 700px;
+    margin:0 auto;
+    
+ }
+ .heading{
+    text-align: center;
+    font-size: 3.5rem;
+    color:var(--black);
+    margin-bottom: 2rem;
+ }
+ input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+
+hr {
+  border: 1px solid white;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #3004aa;
+  color: white;
+  padding: 14px 20px;
+  margin: 4px 0;
+  border: none;
+  width: 100%;
+  opacity: 0.9;
+}
